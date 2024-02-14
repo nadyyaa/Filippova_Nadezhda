@@ -22,7 +22,7 @@ with open('songs.csv', encoding='utf8') as file:
             ls - количество символов в названии песни
             dn - дата указанная в начале задания
             di - дата выхода песни
-            rasn - разнцица дат - количество дней
+            rasn - разница дат - количество дней
             """
         if year < 2002 or date == '01.01.2002':
             print(f'{track_name} - {artist_name} - {streams}')
